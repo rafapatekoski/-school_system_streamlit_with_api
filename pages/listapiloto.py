@@ -32,7 +32,7 @@ else:
         dado = df.iloc[selected_rows[-1]]
         idselecionado = dado["_id"]
         #paginadoaluno(dado)
-        st.write(f"Nome: {dado["nome"]}")
+        st.write(f"Nome: {dado['nome']}")
         st.button("Ir para pagina", on_click=paginadoaluno(dado))
         
         
